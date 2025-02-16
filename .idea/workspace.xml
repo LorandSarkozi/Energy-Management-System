@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="190a7d05-9313-4e99-b570-88e9e50c62e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/entities/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/repositories/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/services/DeviceEnergyConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/services/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/EnergyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/entities/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/entities/DeviceEnergyConsumption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/repositories/DeviceEnergyConsumptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/repositories/DeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/services/DeviceEnergyConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/services/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/controllers/DeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/controllers/EnergyConsumptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/DeviceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/builders/DeviceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/entities/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/entities/DeviceEnergyConsumption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/repositories/DeviceEnergyConsumptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/repositories/DeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/services/DeviceEnergyConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/services/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/constants/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/ApiExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/AuthRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/DeviceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/DevicePersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/RequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/SignupRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/security/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/security/SimpleCorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/security/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/security/filter/JwtRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnergyManagementSystem/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnergyManagementSystem/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/RestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/DuplicateResourceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/EntityValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/ExceptionHandlerResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/ParameterValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/dtos/PersonDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/dtos/PersonDetailsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/dtos/builders/PersonBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/dtos/validators/AgeValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/dtos/validators/annotation/AgeLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/entities/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/repositories/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/java/ro/tuc/ds2020/services/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chat-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/test/java/ro/tuc/ds2020/controllers/PersonControllerUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-demo/src/test/java/ro/tuc/ds2020/services/PersonServiceIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/measurements-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/RestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/DuplicateResourceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/EntityValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/ExceptionHandlerResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/ParameterValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/exceptions/model/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/dtos/PersonDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/dtos/PersonDetailsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/dtos/builders/PersonBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/dtos/validators/AgeValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/dtos/validators/annotation/AgeLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/entities/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/repositories/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/java/ro/tuc/ds2020/services/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/measurements-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/test/java/ro/tuc/ds2020/controllers/PersonControllerUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurements-demo/src/test/java/ro/tuc/ds2020/services/PersonServiceIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/controllers/handlers/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/controllers/handlers/RestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/PersonDetailsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/builders/PersonBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/builders/PersonBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/validators/AgeValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/dtos/validators/annotation/AgeLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/repositories/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/repositories/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/java/ro/tuc/ds2020/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo-devices/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/test/java/ro/tuc/ds2020/controllers/PersonControllerUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo-devices/src/test/java/ro/tuc/ds2020/services/PersonServiceIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/controllers/handlers/RestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/PersonDetailsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/PersonDetailsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/builders/PersonBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/dtos/builders/PersonBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/repositories/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/repositories/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/services/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/ro/tuc/ds2020/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/test/java/ro/tuc/ds2020/controllers/PersonControllerUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/test/java/ro/tuc/ds2020/services/PersonServiceIntegrationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ElmWorkspace">
+    <elmProjects />
+    <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/EnergyManagementSystem" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2qRCWbYpLkmnLEM61IUsByVYa63" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="190a7d05-9313-4e99-b570-88e9e50c62e7" name="Changes" comment="" />
+      <created>1734616033019</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734616033019</updated>
+      <workItem from="1734616034345" duration="7000" />
+    </task>
+    <servers />
+  </component>
+</project>
